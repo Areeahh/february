@@ -1,0 +1,103 @@
+
+body {
+  background-color: hotpink;
+}
+
+
+.gif-yes1,
+.gif-yes2,
+.gif-no {
+  width: auto;      /* Make all gifs same width */
+  height: auto;      /* Maintain aspect ratio */
+  display: none;     /* Hidden by default */
+  margin: 10px auto;
+  border-radius: 10px;
+}
+.gif {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: pink;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  flex-direction: column;
+}
+.wrapper {
+  text-align: center;
+}
+.question {
+  font-size: 24px;
+  color: #e94d58;
+  margin-bottom: 20px;
+}
+.btn-group {
+  margin: 20px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  margin: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 2px solid #e94d58;
+}
+.yes-btn {
+  background-color: #e94d58;
+  color: pink;
+}
+.no-btn {
+  background-color: pink;
+  color: #e94d58;
+}
+.gif-container {
+  margin-top: 20px;
+}
+.gif-yes1, .gif-yes2, .gif-no {
+  width: 200px;
+  margin: 10px;
+  display: none; /* hide by default */
+}
+
+/* Add a smooth transition to all buttons */
+button {
+  transition: all 0.3s ease;
+}
+
+/* Make the button grow slightly on hover */
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Optional: Add a "press" effect on click */
+button:active {
+  transform: scale(0.95);
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.btn-group button {
+  animation: bounceIn 0.6s ease forwards;
+}
