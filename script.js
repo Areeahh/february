@@ -10,7 +10,7 @@ const gifNo = document.querySelector('.gif-no');
 // YES button click
 yesBtn.addEventListener('click', () => {
   // Change question text
-  question.textContent = "Aww, mere angoor , love loving you mere rasmalai, mere cute dimple ! ❤️";
+  question.textContent = "Aww, mere angoor , love loving you mere rasmalai, mere cute dimple ! ❤️ kisses for you mwaahh mwaahhhh";
 
   // Show yes GIFs
   gifYes1.src = 'yes1.gif';
@@ -35,5 +35,6 @@ noBtn.addEventListener('click', () => {
   gifYes1.style.display = 'none';
   gifYes2.style.display = 'none';
 });
+
 
 
