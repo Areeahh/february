@@ -10,7 +10,7 @@ const gifNo = document.querySelector('.gif-no');
 // YES button click
 yesBtn.addEventListener('click', () => {
   // Change question text
-  question.textContent = "Aww, my busy bae , love loving you my 28 yo ! ❤️";
+  question.textContent = "Aww, mere angoor , love loving you mere rasmalai, mere cute dimple ! ❤️";
 
   // Show yes GIFs
   gifYes1.src = 'yes1.gif';
@@ -25,7 +25,7 @@ yesBtn.addEventListener('click', () => {
 // NO button click
 noBtn.addEventListener('click', () => {
   // Change question text
-  question.textContent = "why u clicked no u made me cry ";
+  question.textContent = "Babe mere se phenti na khaa lena ughh ";
 
   // Show no GIF
   gifNo.src = 'no1.gif';
@@ -35,4 +35,5 @@ noBtn.addEventListener('click', () => {
   gifYes1.style.display = 'none';
   gifYes2.style.display = 'none';
 });
+
 
